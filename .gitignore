@@ -7,14 +7,29 @@ out/
 *.user
 *.suo
 *.userosscache
-*.sln.docstates
 *.rsuser
 *.sln.ide
+*.sln.docstates
 
-# Mono specific
-*.pidb
-*.booproj
-*.unityproj
+# Visual Studio specific
+.vs/
+
+# Logs
+*.log
+*.tlog
+
+# Build system files
+*.db
+*.opendb
+*.VC.db
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
 
 # Rider specific
 .idea/
@@ -24,7 +39,7 @@ out/
 .vscode/
 .vscode/*
 
-# Windows specific
+# System-specific
 Thumbs.db
 ehthumbs.db
 Desktop.ini
@@ -35,8 +50,19 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 
-# Logs
-*.log
-*.tlog
+# Temporary files
+~$*
+*.tmp
+*.temp
+*.cache
+*.futdcache.v2
+*.dtbcache.v2
+*.vsidx
 
-# Build system
+# Test files
+*.testlog
+testlog.manifest
+
+# Backup files
+*.bak
+*.backup
