@@ -1,14 +1,42 @@
-# Build files
+# Build artifacts
 bin/
 obj/
+out/
 
 # User-specific files
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
+*.rsuser
+*.sln.ide
 
-# Rider and VS Code
+# Mono specific
+*.pidb
+*.booproj
+*.unityproj
+
+# Rider specific
 .idea/
+*.sln.iml
+
+# VS Code specific
 .vscode/
 .vscode/*
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+*.tlog
+
+# Build system
